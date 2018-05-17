@@ -551,6 +551,12 @@
 .head_topnav li:nth-of-type(8) {
   float: left; }
 
+.head_topnav li:nth-of-type(9) {
+  float: left; }
+
+.head_topnav li:nth-of-type(10) {
+  float: left; }
+
 .head_topnav li a {
   line-height: 35px;
   color: #fff;
@@ -629,5 +635,11 @@
   font-size: 12px;
   color: #8c8c8c;
   font-weight: 100; }
+
+.nihao {
+  display: none; }
+
+.tuichu {
+  display: none; }
 
 /*# sourceMappingURL=index.css.map */

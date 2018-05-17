@@ -31,7 +31,7 @@ $font-size: 12px;
 .head_topnav{
     float: right;  
 }
-@for $num from 1 to 9 {
+@for $num from 1 to 11{
     .head_topnav li:nth-of-type(#{$num}){
         float: left;
        
@@ -126,4 +126,11 @@ $font-size: 12px;
 
 .nav2 {
     
+}
+
+.nihao{
+    display: none;
+}
+.tuichu{
+    display: none;
 }

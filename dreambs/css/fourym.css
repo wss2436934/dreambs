@@ -555,6 +555,60 @@ width: 100%;
     border-radius: 4px;
         text-indent: 31px;
 }
+.yhmmabzq{
+	font-size: 12px;
+	color: red;
+	line-height: 20px;
+	border: 1px solid red;
+	position: absolute;
+	left: 30%;
+	top: 5px;
+	display: none;
+}
+.qsrzhmm{
+	font-size: 12px;
+	color: red;
+	line-height: 20px;
+	border: 1px solid red;
+	position: absolute;
+	left: 30%;
+	top: 5px;
+	display: none;
+}
+.register_yiyou{
+	font-size: 12px;
+	color: red;
+	line-height: 20px;
+	border: 1px solid red;
+	position: absolute;
+	left: 0;
+	top: 43px;
+	display: none;
+}
+.register_mimayz{
+	    width: 322px;
+    height: 40px;
+    border: #c9c9c9 1px solid;
+    padding-left: 0;
+    line-height: 40px;
+    position: absolute;
+    left: 2px;
+    z-index: 0;
+    border-radius: 4px;
+        text-indent: 31px;
+}
+.register_zcmimayz{
+	    width: 322px;
+    height: 40px;
+    border: #c9c9c9 1px solid;
+    padding-left: 0;
+    line-height: 40px;
+    position: absolute;
+    left: 2px;
+    z-index: 0;
+    border-radius: 4px;
+        text-indent: 31px;
+}
 .register_formbox i{
 	width: 45px;
     height: 35px;
