@@ -1,0 +1,30 @@
+  .genduotuijian{
+      width: 100%;
+      height: 640px !important;
+        overflow: hidden;
+        float: left;
+      background: #f7f7f7;;
+  }  
+   .genduotuijian li{
+       float: left;
+    width: 384px;
+    height: 213px;
+    border: solid 1px #e3e1e2;
+    margin-right: 20px;
+    margin-top: 20px;
+    background: #FFF;
+   }
+      .genduotuijian li span{
+        float: left;
+    font-size: 14px;
+    line-height: 31px;
+    padding-left: 15px;
+    color: #000000;
+      }
+   .genduotuijian li a{
+     cursor: pointer;
+    display: block;
+    float: left;
+      
+   }
+   

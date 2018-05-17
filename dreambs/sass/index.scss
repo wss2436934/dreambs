@@ -1,0 +1,129 @@
+@charset "utf-8";
+@import "rightfixed";
+@import "pinpai";
+@import "faxianchaoliu";
+@import "shishangzixun";
+@import "juhuasuan";
+@import "pinleijige";
+@import "meizhoushangxin";
+@import "gengduotuijian";
+@import "cainixihuan";
+@import "banner";
+@import "louti";
+$bgcolor:#222222;
+$width:1200px;
+$height: 26px;
+$font-size: 12px;
+.headtop{
+    background: $bgcolor;
+    height: 35px;
+}
+.wrapper{
+    width: $width;
+    margin: 0 auto;
+}
+.head_toplogo{
+    width: $width - 899;
+    height: $height;
+    float: left;
+    background: url(../images/M4_25_114110.jpg)no-repeat $width - 1222 top;
+}
+.head_topnav{
+    float: right;  
+}
+@for $num from 1 to 9 {
+    .head_topnav li:nth-of-type(#{$num}){
+        float: left;
+       
+    }
+}
+
+ .head_topnav li a{
+    line-height: 35px;
+    color: #fff;
+    font-size:$font-size;
+     padding: 0 10px;
+}
+.head_shu{
+     line-height: 35px;
+     color: #FFF;
+     font-size: 14px;
+}
+.head_topnav_sjb{
+    padding-left: 20px!important;
+    background:url(../images/0831205002.jpg)no-repeat 3px 3px;
+}
+.head_topnav_sjb:hover{
+    background:url(../images/0831205002hover.jpg)no-repeat 3px 3px;
+}
+.head_topnav_gwc{
+    padding-right: 30px!important;
+    background:url(../images/M4_26_101323.png)no-repeat 51px -5px;
+}
+.daxihua{
+    color:000
+}
+.nav2{
+    z-index: 999;
+}
+.nav2 .kuang h3{
+    display: block;
+    margin-bottom: 9px;
+}
+.nav2 .kuang{
+    padding:7px 0;
+    border-bottom: 1px solid #f3f3f3;
+}
+.nav2 .kuang a{
+//  font-family: simsun;
+    color: #8c8c8c;
+    font-size: 12px;
+    white-space: nowrap;
+    width: 38%;
+    display: inline-block;
+    line-height: 16px;
+    padding: 0 1% 0 6%;
+    font-weight: 100;
+}
+
+.nav2 .kuang a:nth-of-type(2n+1){
+    border-right: 1px solid #f3f3f3;
+    }
+.subnav{
+    border: 1px solid #E0E0E0;
+    width: 600px;
+    position: absolute;
+    left: 190px;
+    top:44;
+    z-index: 99999;
+    background: #fff;
+    display: none;
+}
+.subnav  .five{
+    display: inline-block;
+    width: 255px;
+//  margin-right: 30px;
+    margin:8px 30px 8px 10px;
+//  background: red;
+       
+}
+.five p{ 
+//  margin-top: 8px;
+    border-bottom: 2px solid #f3f3f3;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+}
+.five a{
+    margin: 10px 0;
+    margin-left: 3px;
+    display: inline-block;
+    width: 67px;
+    padding-right: 5px;
+    font-size: 12px;
+    color: #8c8c8c;
+    font-weight: 100;
+}
+
+.nav2 {
+    
+}

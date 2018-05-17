@@ -1,0 +1,229 @@
+
+
+.rightfix{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 36px;
+    z-index: 999999999999999999999999;
+    background: #000000;
+    }
+.fixmain{
+position: absolute;
+top: 25%;
+ }
+.fix_my{
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background:url(../images/nitemf_09.png)no-repeat center;
+}
+.fix_gwc{
+    padding: 8px 0;
+    width: 36px;
+    height: 107px;
+    border-top: 1px solid #3E3E3E;
+    border-bottom: 1px solid #3E3E3E;
+    cursor: pointer;
+    background: #000;
+    margin: 10px 0;
+  
+}
+.fix_gwc:hover{
+   background:rgb(193,0,85); 
+}
+.fix_cart{
+        width: 34px;
+         height: 21px;
+         background: url(http://i2.mbscss.com/img/moonbasa2/20151209/nitemf_05.png) no-repeat center;
+}
+.fix_font{
+    margin: 6px 0;
+    padding: 3px 12px;
+    width: 10px;
+    height: 48px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+}
+.fix_numb{
+    width: 36px;
+    background: url(http://i2.mbscss.com/img/moonbasa2/20151209/red_ring.png) no-repeat center;
+    color: #FFF;
+    text-align: center; 
+}
+.fix_heart{
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background: url(http://i2.mbscss.com/img/moonbasa2/20151209/nitemf_07.png) no-repeat center;
+}
+.fix_wecheat{
+   cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background: url(http://i2.mbscss.com/img/moonbasa2/20151209/nitemf_08.png) no-repeat center;
+}
+.fix_myvice{
+   cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background: url(http://i2.mbscss.com/img/moonbasa2/20151209/service_out.png) no-repeat center;
+}
+.head_img{
+        width: 100%;
+    background: #f6f6f6;
+}
+@for $num from 1 to 6{
+    .head_img img:nth-of-type(#{$num}){
+        width: 240px;
+        height: 48px;
+        float: left;
+    }   
+             
+}
+
+.head_search_logol{
+    background: transparent url(http://i1.mbscss.com/img/moonbasa/2017/ydw/M10_10_102546.gif) no-repeat scroll center !important;
+    display: block;
+    float: left;
+    height: 129px;
+    width: 320px;
+    margin-top: 0;
+}
+.head_search{
+    padding: 10px 0 0px;
+}
+.searchzong{
+    padding-left: 60px;
+    width: 500px;
+    float: left;
+    padding: 31px 80px 0 60px;
+}
+.searchlg{
+    float: left;
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+.searchlong{
+    width: 540px;
+    height: 35px;
+    background: url(http://i3.mbscss.com/img/moonbasa/2015/09/bon/ssbg.jpg) no-repeat;
+    float: left;
+}
+.head_search_logor{
+    position: relative;
+    padding: 15px 28px 0 0;
+    width: 207px;
+    height: 68px;
+//  padding: 13px 28px 0 0;
+    float: right;
+    
+}
+.searchlong_ipt1{
+    float: left;
+    width: 449px;
+    height: 31px;
+    margin-left: 5px;
+    line-height: 30px;
+    margin: 2px 2px 0 0;
+    color: #b9b9b9;
+    text-indent: 7px;
+    border: 0;
+    position: relative;
+    left:3px;
+    font-size: 14px;
+   
+}
+.searchlong_btn{
+    float: right;
+    width: 83px;
+    height: 32px;
+    text-indent: -200px;
+    cursor: pointer;
+    opacity: 0;
+}
+.searchshort li{
+    float: left;
+     color: #9c9d9f;
+     height: 25px;
+     line-height: 25px;
+}
+.searchshort li a{
+    font-size: 12px;
+        color: #9c9d9f;
+    padding-left: 5px;
+    
+}
+.searchshort li a:hover{
+    color: #fff;
+}
+.nav1{
+    height: 44px;
+    line-height: 44px;
+    background: #fffffff;
+    margin-left: 231px;
+}
+.nav1 li{
+    float: left;
+    margin-right: 32px;
+ 
+}
+.nav1 li a{
+    color: #727272;
+    font-size: 14px;
+    line-height: 34px;
+    border-bottom: 2px solid transparent;
+}
+.nav1 li a:hover{
+        color: rgb(230, 0, 99);
+}
+.nav2{
+    position: absolute;
+    top: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 190px;
+    line-height: 20px;
+    background: #fff;
+    padding-bottom: 7px;
+    height: 467px;
+}
+@for $num from 2 to 6{
+    .nav2 li:nth-of-type(#{$num}){
+            padding: 0 16px 0 35px;
+    }
+}
+.nav2 li:nth-of-type(1){
+    height: 43px;
+    border-bottom: 1px solid #4e4e4e;
+    padding: 0;
+    background: #626262;;
+}
+.nav2 li:nth-of-type(1) img{
+    display: block;
+    margin: 0 auto;
+}
+.nav2 li:nth-of-type(2){
+        background: url(http://i0.mbscss.com/img/moonbasa/2018/zyc/M4_23_113836.png) no-repeat 14px 10px;
+}
+
+.nav2 li:nth-of-type(3){
+        background: url(http://i0.mbscss.com/img/moonbasa/2018/zyc/M4_23_113836.png) no-repeat 14px -90px;
+}
+.nav2 li:nth-of-type(4){
+       background:url(http://i2.mbscss.com/img/moonbasa/2018/zyc/M4_23_113836.png) no-repeat 14px -229px;
+}
+.nav2 li:nth-of-type(5){
+        background: url(http://i0.mbscss.com/img/moonbasa/2018/zyc/M4_23_113836.png) no-repeat 14px -332px;
+}
+.banner{
+    height: 430px;
+    background: yellow;
+    text-align: center;
+    font-size: 50px;
+    line-height: 430px;
+}

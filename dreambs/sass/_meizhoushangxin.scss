@@ -1,0 +1,31 @@
+.meizhoushangxin{
+    width: 1200px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    height: 745px;
+    margin: 0 auto;
+}
+.mzsx_tab{
+    height: 745px;
+    position: absolute;
+   
+} 
+.mzsx_left{
+    position: absolute;
+    left: -40px;
+    top: 50%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.mzsx_right{
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.mzsx_tab li{
+    float: left;
+    width: 1200px;
+}

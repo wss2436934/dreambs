@@ -1,0 +1,37 @@
+.cainixihuan{
+        width: 100%;
+    background: #fff;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.cnxh_pics li{
+    float: left;
+    height: 318px;
+    width: 225px;
+    padding: 0 12px 60px 0;
+}
+.cnxh_pics li img{
+     height: 303px;
+    width: 225px;
+}
+.cnxh_pics p{
+    display: block;
+    text-align: center;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+   
+    color: #6f6f6f; 
+    font-family: microsoft yahei;
+    margin: 15px auto 5px auto;
+}
+.cnxh_pics p:hover{
+    color:#000;
+        
+}
+.cnxh_pics span{
+    margin-left:60px ;
+   
+}
