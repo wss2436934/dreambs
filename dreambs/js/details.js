@@ -156,7 +156,7 @@ $('.mainl_bot').on('mouseover','.mainl_botpic li',function(){
 		if(num==6){
 			num=5;
 		}
-		$('.num_num').text(num);
+		$('.num_num').val(num);
 		if(num==5){
 			$('.xzyh1').show();
 			$('.xzyh').hide();
@@ -176,6 +176,51 @@ $('.mainl_bot').on('mouseover','.mainl_botpic li',function(){
 			$('.xzyh1').hide();
 			$('.xzyh').show();
 		}
-		$('.num_num').text(num);
+		$('.num_num').val(num);
 		
 	})
+//	$('.num_num').on('blur',function(){
+//		if($('.num_num').val()>5){
+//			
+//		}
+//		
+//	})
+	
+//加入购物车**********************
+	var sidarr=[];
+	var numarr=[];
+	
+	function getcookievalue(){
+		if(getCookie('cartsid')){
+			sidarr=getCookie('cartsid').split(',');
+		}
+		if(getCookie('cartnum')){
+			numarr=getCookie('cartnum').split(',')
+		}
+	}
+	//判断商品id是否存在sid
+	$('.details_gwc').on('click',function(){
+		var sid=$(this).parents().parents().parents().parents().find('.gwct1').attr('sid');
+		getcookievalue();
+//		alert($('.num_num').val())
+		if($.inArray(sid,sidarr)!=-1){
+			if(getCookie('cartnum')==''){
+				var num=parseInt($('.num_num').val());
+				numarr[$.inArray(sid,sidarr)]=num;
+				addCookie('cartnum', numarr.toString(), 7);
+				sidarr[$.inArray(sid,sidarr)]=sid;
+				addCookie('cartsid', sidarr.toString(), 7);
+			}else{
+				var num=parseInt(numarr[$.inArray(sid,sidarr)])+parseInt($('.num_num').val());
+				numarr[$.inArray(sid,sidarr)]=num;
+				addCookie('cartnum', numarr.toString(), 7);
+			}
+		}else{
+			sidarr.push(sid);
+        			addCookie('cartsid', sidarr.toString(), 7);
+        			numarr.push($('.num_num').val());
+        			addCookie('cartnum', numarr.toString(), 7);
+        			alert($('#count').val());
+		}
+	});
+	
